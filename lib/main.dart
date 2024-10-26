@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Icon(Icons.circle, color: Colors.white, size: 130),
+              Icon(Icons.circle_rounded, color: Colors.orange, size: 130),
               Text(
                 'Sherry Ali',
                 style: TextStyle(
@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(
                       Icons.facebook,
-                      color: Colors.orange,
+                      color: Colors.white,
                     ),
                   ),
                   IconButton(
@@ -77,7 +77,7 @@ class MyApp extends StatelessWidget {
                       onPressed: () {},
                       icon: Icon(
                         Icons.telegram,
-                        color: Colors.orange,
+                        color: Colors.blue,
                       )),
                 ],
               )
